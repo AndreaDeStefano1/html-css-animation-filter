@@ -26,3 +26,42 @@
 .ex-4-square:hover{
   background-color: transparent;
 }
+
+.ex-5-square{
+  transition: all  1s linear;
+}
+.ex-5-square:hover{
+  transform: scale(2,2);
+}
+.ex-5-square:active{
+  transform: scale(.5,.5);
+}
+
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+.ex-7-img{
+  transition: 1s;
+}
+.ex-7-img:hover{
+  filter: sepia(.6) brightness(0.4);
+  /* da capire qual'è il secondo effetto che non lo vedo */
+}
+
+.ex-8-img{
+  transition: 2s;
+}
+.ex-8-img:hover{
+  border-radius: 20px;
+  filter: grayscale(.5) saturate(.5);
+}
+
+.ex-9-img{
+  transition: 2s;
+}
+.ex-9-img:hover{
+  border-radius: 20px;
+  filter: grayscale(.5) saturate(.5);
+  transform: scale(1.5,1.5);
+}
